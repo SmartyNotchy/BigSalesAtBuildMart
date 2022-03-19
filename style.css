@@ -1,0 +1,72 @@
+body {
+  background: lightgreen;
+}
+
+canvas {
+  border: 10px solid black;
+}
+
+p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 12px;
+  border-color: black;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  box-shadow: 0 5px #000000;
+}
+
+button:active {
+  box-shadow: 0 1px #000000;
+  transform: translateY(5px);
+}
+
+#white {
+  background: white;
+  color: black;
+}
+
+#red {
+  background: red;
+  color: white;
+}
+
+#orange {
+  background: darkorange;
+  color: white;
+}
+
+#yellow {
+  background: yellow;
+  color: black;
+}
+
+#green {
+  background: limegreen;
+  color: black;
+}
+
+#blue {
+  background: royalblue;
+  color: white;
+}
+
+#purple {
+  background: mediumorchid;
+  color: white;
+}
+
+#brown {
+  background: peru;
+  color: black;
+}
+
+#black {
+  background: black;
+  color: white;
+}
