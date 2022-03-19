@@ -382,9 +382,6 @@ function update() {
     window.location.href="end.html"
   }
   
-  // Debugging
-  //console.log("Main Game Loop Updated!");
 }
 
 var gameloop = setInterval(function() { update(); }, TICK_SPEED);
-//var debugloop = setInterval(function() { console.log("Expected Performance Update!"); }, 250);
