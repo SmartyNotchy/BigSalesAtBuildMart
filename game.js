@@ -379,7 +379,7 @@ function update() {
   // Check If Time Is Up
   if (totalTimer <= 0) {
     clearInterval(gameloop);
-    window.location.href="end.html"
+    window.location.href="end.html?score=" + score;
   }
   
 }
