@@ -8,7 +8,13 @@
   </head>
   <body>    
     <h1>Time's Up!</h1>
-    <h2>You earned $undefined in five minutes.</h2>
+    <h2 id="scoretext">You earned $[loading...] in five minutes!</h2>
     <h2>Can you do better?</h2>
+    
+    <script>
+      var qs = new QueryString()
+      var score = qs.get("score");
+      document.getElementById("scoretext").innerHTML = "You earned $" + score + " in five minutes!";
+    </script>
   </body>
 </html>
