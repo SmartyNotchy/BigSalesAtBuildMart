@@ -24,6 +24,12 @@ p {
   font-size: 20px;
 }
 
+#startmenu {
+  width: 80%;
+  background: white;
+  border: 10px solid black;
+}
+
 button {
   border-radius: 12px;
   border-color: black;
