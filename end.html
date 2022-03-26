@@ -7,9 +7,14 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>    
-    <h1>Time's Up!</h1>
-    <h2 id="scoretext">You earned $[loading...] in five minutes!</h2>
-    <h2>Can you do better?</h2>
+    <div id="menudiv">
+      <h1>Time's Up!</h1>
+      <h2 id="scoretext">You earned $[loading...] in five minutes!</h2>
+      <h2>Can you do better?</h2>
+      <p>
+        <button id="playgamebutton" onclick="window.location.href='game.html'">Start Game</button>
+      </p>
+    </div>
     
     <script>
       const getQueryParams = ( params, url ) => {
