@@ -25,6 +25,7 @@ p {
 }
 
 #menudiv {
+  margin: auto;
   width: 80%;
   background: white;
   border: 10px solid black;
