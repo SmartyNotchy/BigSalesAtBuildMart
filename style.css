@@ -46,9 +46,9 @@ button:active {
 }
 
 #playgamebutton {
-  width: 200px;
-  height: 40px;
-  font-size: 30px;
+  width: 400px;
+  height: 100px;
+  font-size: 80px;
   background: limegreen;
   color: black;
 }
