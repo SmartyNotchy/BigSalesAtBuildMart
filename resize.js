@@ -1,4 +1,4 @@
-var paragraphs = document.querySelectorAll("p");
+var paragraphs = document.getElementsByClassName("to_resize");
 
 for (let i = 0; i < paragraphs.length; i++) {
   let table = document.createElement("table");
