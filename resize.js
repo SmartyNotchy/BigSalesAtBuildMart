@@ -8,9 +8,9 @@ for (let i = 0; i < paragraphs.length; i++) {
   let td1 = tr.appendChild(document.createElement("td"));
   let td2 = tr.appendChild(document.createElement("td"));
   let td3 = tr.appendChild(document.createElement("td"));
-  td1.setAttribute("style", "width:15%");
-  td2.setAttribute("style", "width:70%");
-  td3.setAttribute("style", "width:15%");
+  td1.setAttribute("style", "width:8%");
+  td2.setAttribute("style", "width:84%");
+  td3.setAttribute("style", "width:8%");
   let clone = paragraphs[i].cloneNode([true]);
   let parent = paragraphs[i].parentNode;
   td2.appendChild(clone);
