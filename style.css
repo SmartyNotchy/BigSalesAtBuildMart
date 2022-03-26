@@ -44,6 +44,14 @@ button:active {
   transform: translateY(5px);
 }
 
+#playgamebutton {
+  width: 200px;
+  height: 40px;
+  font-size: 30px;
+  background: white;
+  color: black;
+}
+
 #white {
   background: white;
   color: black;
