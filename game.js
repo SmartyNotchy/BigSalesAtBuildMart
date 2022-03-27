@@ -100,7 +100,11 @@ function buildTimerBar(time) {
   if (time <= 0) {
     decreaseTimerProgress = 0;
   }
-  return "⏳(" + "🟢".repeat(decreaseTimerProgress) + "⚪".repeat(10-decreaseTimerProgress) + ")";
+  if (time <= 0) {
+    return "⌛(" + "❌".repeat(10) + ")";
+  } else {
+    return "⏳(" + "🟢".repeat(decreaseTimerProgress) + "⚪".repeat(10-decreaseTimerProgress) + ")";
+  }
 }
 
 // Update the Score Display
