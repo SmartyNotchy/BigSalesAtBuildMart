@@ -101,7 +101,7 @@ function buildTimerBar(time) {
     decreaseTimerProgress = 0;
   }
   if (time <= 0) {
-    return "⌛(" + "❌❌❌" + ")";
+    return "⌛(" + "🟢".repeat(decreaseTimerProgress) + "⚪".repeat(10-decreaseTimerProgress) + ")";
   } else {
     return "⏳(" + "🟢".repeat(decreaseTimerProgress) + "⚪".repeat(10-decreaseTimerProgress) + ")";
   }
